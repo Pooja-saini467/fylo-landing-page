@@ -1,0 +1,41 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+body::before{
+    display: block;
+    content:'' ;
+    height: 60px;
+}
+
+.bg-img{
+    background-image: url(images/bg-curve-desktop.svg);
+    background: hsl(0, 0%, 75%);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:relative;
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index:-1;
+}
+
+
+.col{
+    margin: 3%;
+}
+.bgred{
+    background: hsl(238, 22%, 44%);
+}
+.bgblue{
+    background: hsl(243,87%, 12%);
+}
+.row{
+    margin: 5%;
+}
+@media(min-width:768px){
+    .enter-input{
+        width: 100%;
+    }
+    .news-input{
+        width: 50%;
+    }
+}
