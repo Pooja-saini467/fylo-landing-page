@@ -1,3 +1,4 @@
 # fylo-landing-page
-it s bloger page website
+it is bloger page website.
+It is complete responsive.
 @Pooja96490259
